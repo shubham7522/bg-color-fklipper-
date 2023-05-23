@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Bg Colour Flipper</title>
+</head>
+<body class="">
+    <main class="h-screen grid place-items-center">
+        <div>
+            <h2 class="color bg-slate-800 text-white text-center w-[75vh] p-7 text-2xl
+            rounded-xl font-poppins font-medium ">Background Colour:<span class="text-indigo-600 font-poppins font-bold" id="color">#ffffff</span></h2>
+            <button class="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow mt-6 mx-auto flex justify-center place-items-center " id="btn" onclick="changeColor()">
+                <div class="absolute inset-0 w-3 bg-green-500 transition-all duration-[450ms] ease-in-out group-hover:w-full"></div>
+                <span class="relative text-black group-hover:text-white text-center font-poppins ">Click Me!</span>
+            </button>
+        </div>
+        
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
